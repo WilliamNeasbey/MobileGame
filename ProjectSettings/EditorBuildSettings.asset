@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CanWeGetMuchHigher.unity
+    guid: a44edbc082763094990c365852f40458
   m_configObjects: {}
