@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rb;
 
     private float moveX;
+
+    // For mobile controls
+    public Joystick joystick;
 
     // Start is called before the first frame update
     void Awake()
@@ -18,7 +22,15 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moveX = Input.GetAxis("Horizontal") * moveSpeed;
+        // Get input from virtual joystick
+       moveX = joystick.Horizontal * moveSpeed;
+
+        // Get input from keyboard or D-pad (only if virtual joystick isn't being used)
+        if (Mathf.Approximately(moveX, 0f))
+        {
+            moveX = Input.GetAxis("Horizontal") * moveSpeed;
+            
+        }
     }
 
     private void FixedUpdate()
