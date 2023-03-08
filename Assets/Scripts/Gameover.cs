@@ -24,7 +24,7 @@ public class Gameover : MonoBehaviour
         }
     }
 
-    private void EndGame()
+    public void EndGame()
     {
         isGameOver = true;
 
