@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: 075ccb7f61d1acf4f910b70de2a566a0
+  - enabled: 1
     path: Assets/Scenes/CanWeGetMuchHigher.unity
     guid: a44edbc082763094990c365852f40458
+  - enabled: 1
+    path: Assets/Scenes/Mario64Higher.unity
+    guid: e66e1895dafdca54a9a44c0b137994f8
+  - enabled: 1
+    path: Assets/Scenes/FortniteGriddy.unity
+    guid: 96a1be644f5f9864eaaa0cdb0df49e82
   m_configObjects: {}
