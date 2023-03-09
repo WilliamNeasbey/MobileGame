@@ -840,7 +840,7 @@ RectTransform:
   m_GameObject: {fileID: 577940108}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.3221664, y: 1.769, z: 1.769}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 393791252}
@@ -848,7 +848,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -94}
   m_SizeDelta: {x: 1279, y: 719}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577940110
@@ -871,7 +871,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d45f21616e4a5544db22d1b94979a36f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: df49e66e5d43add47bc093776a2088b0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1234,9 +1234,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f79b3a15b294cbf4ab160a30d9088e82, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6fa5496e4f9b750438cd38192343565e, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.715
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2105,9 +2105,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ade8122ca0957204aa53c5c70db52edd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7d35393d5da3ec64a804d6e7d3f61e3f, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.624
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2698,9 +2698,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1b3e72e1a805bb49ac5cdd3b7b85012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShittyCloudPlatformPrefab: {fileID: 6595632796151803302, guid: 2bcc61fc4e1f8b446af0fef425d22b3a, type: 3}
-  BadCloudPlatformPrefab: {fileID: 6595632796151803302, guid: 7df077957f983c44e86e926f2b21259e, type: 3}
-  MovingCloudPlatformPrefab: {fileID: 6595632796151803302, guid: 8db03947d46ba984ab42a0aa843469b9, type: 3}
+  ShittyCloudPlatformPrefab: {fileID: 6595632796151803302, guid: 7ea9ab172cdb0c847af8a13bb036b7c4, type: 3}
+  BadCloudPlatformPrefab: {fileID: 6595632796151803302, guid: 1f66c59d431a60d49a4364d3f4de04b0, type: 3}
+  MovingCloudPlatformPrefab: {fileID: 6595632796151803302, guid: c9ef64788714de74194a51b914d4fc4f, type: 3}
   levelWidth: 3
   minY: 0.2
   maxY: 1.5
